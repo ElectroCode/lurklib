@@ -69,6 +69,8 @@ class _Optional(object):
         """ Not implemented. """
         raise self.NotImplemented('LurklibError: NotImplemented')
 
+	def oper(self, name, password)
+		self.send('OPER :%s %s' % name, password, error_check=True)
     def users(self):
         """ Not implemented. """
         raise self.NotImplemented('LurklibError: NotImplemented')
